@@ -53,6 +53,6 @@ jobs:
     runs_ON: ubuntu-latest
 
     steps:
-      - name: See outdated dependecies
-        run: |
+    - name: See outdated dependecies
+      run: |
           pip list --outdated
