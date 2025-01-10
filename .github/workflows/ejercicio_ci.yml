@@ -47,7 +47,7 @@ jobs:
       run: |
         pytest app/modules/ --ignore-glob='*selenium*'
 
-jobs:
+
   outdated_dependencies:
     needs: pytest
     runs_ON: ubuntu-latest
